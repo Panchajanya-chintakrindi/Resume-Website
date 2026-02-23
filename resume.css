@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:skyblue;
+    display:flex;
+    justify-content:center;
+    padding:20px;
+}
+
+.container{
+    width:900px;
+    background:linear-gradient(to right,#139696,#c5e4bf);
+    padding:30px;
+    border-radius:10px;
+}
+
+/* Header */
+.header{
+    display:flex;
+    margin-bottom:30px;
+
+}
+
+
+
+.name-section h1{
+    font-size:36px;
+    align-items: center;
+    color: black;
+}
+
+.name-section h3{
+    color: #2b7a78;
+    margin-top:5px;
+}
+
+/* Layout */
+.row{
+    display:flex;
+    gap:40px;
+}
+
+.left, .right{
+    flex:1;
+}
+
+/* Section Titles */
+.section-title{
+    font-size:22px;
+    color:#205c5c;
+    margin:20px 0 10px;
+    border-bottom:3px solid #2b7a78;
+    display:inline-block;
+    padding-bottom:3px;
+}
+
+/* Items */
+.item{
+    margin-bottom:15px;
+}
+
+.item h4{
+    color:#2b7a78;
+}
+
+.item small{
+    color:rgb(195, 211, 164);
+}
+
+/* Skills */
+.skill{
+    margin:10px 0;
+}
+.skill-bar{
+    background:#ddd;
+    height:8px;
+    border-radius:10px;
+    margin-top:5px;
+}
+
+.skill-bar div{
+    height:8px;
+    background:#2b7a78;
+    border-radius:10px;
+} 
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ .present {
+    color:rgb(195, 211, 164);
+ }
+
+/* Responsive */
+@media(max-width:768px){
+    .row{
+        flex-direction:column;
+    }
+}
